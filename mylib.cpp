@@ -152,8 +152,8 @@ a.paz.clear();
         egz = 0; rez = 0;
     }
    string studentas::getPravarde() {
-           vector<string> teig = { "kietiakiai", "galvočiai" };
-           vector<string> neig = { " vargšiukai", "nuskriaustukai" };
+           vector<string> teig = { "kietiakiai", "galvociai" };
+           vector<string> neig = { " vargsiukai", "nuskriaustukai" };
 
            if (rez >= 5.0f) {
                pravarde = teig[rand() % teig.size()];
